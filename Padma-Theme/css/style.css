@@ -1,0 +1,206 @@
+*{
+    margin: 0 ;
+    padding: 0 auto;
+}
+body{
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    color: #494949;
+    background-color: #fff;
+}
+.top-nav-section{
+    background-color: #fff;
+}
+/*Top Navbar Font Style */
+.nav-item{
+   padding: 5px; 
+}
+.nav-link{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.header-section-bg{
+    background-image: url(../img/laptop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+    padding-top: 250px;
+}
+.hshf{
+    background-color: #fff;
+    opacity: 0.5;
+    color: black;
+    width: 362px;
+    padding: 7px;
+}
+.support-section{
+    border-bottom: 1px solid #E7E7E7;
+    color: black;
+}
+..support-section h5{
+    text-transform: uppercase;
+}
+.ssi{
+    padding-right: 15px;
+}
+.work-section{
+    border-bottom: 1px solid #E7E7E7;
+}
+.shw-bdr-btm{
+    border-bottom: 1px solid #A8A8A8;
+    width: 300px;
+    position: relative;
+    left: 50px;
+    margin-top: 30px;
+}
+.shw-bdr-btm:after{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: 1px solid  #A8A8A8;
+    border-radius: 50%;
+    background: #fff;
+    top: -5px;
+    left: 150px;   
+}
+.portfolio-section-bdr-btm{
+    border-bottom: 1px solid #A8A8A8;
+    width: 300px;
+    position: relative;
+}
+.portfolio-section-bdr-btm:after{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: 1px solid  #A8A8A8;
+    border-radius: 50%;
+    background: #fff;
+    top: -5px;
+    left: 150px;
+}
+.features-section{
+    border-bottom: 1px solid #E7E7E7;
+}
+.fcbi{
+    width: 80px;
+    height: 80px;
+}
+.bbt{
+    border-bottom: 1px solid #A8A8A8;
+    width: 150px;
+    position: relative;
+    margin-left: 3px;
+    
+}
+.bbt:before{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #A8A8A8;
+    border-radius: 50%;
+    top: -5px;
+    background-color: #fff;
+}
+
+.features-section ul.squre{
+    list-style: square;
+    padding-left: 18px;
+}
+.about-section{
+    border-bottom: 1px solid #E7E7E7;
+}
+.abt-bdr-btm{
+   border-bottom: 1px solid #A8A8A8;
+   width: 150px;
+   position: relative;
+    float: right;
+    margin-right: 10px;
+    
+}
+.abt-bdr-btm:before{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #A8A8A8;
+    border-radius: 50%;
+    top: -5px;
+    background-color: #fff; 
+}
+.fa-size{
+    font-size: 30px;
+    background-color: #D0D0D0;
+    color: #fff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    padding: 15px;
+}
+
+.mobile-section{
+    border-bottom: 1px solid #E7E7E7;
+}
+.ms-bdr-btm{
+    border-bottom: 1px solid #A8A8A8;
+   width: 150px;
+   position: relative;
+    
+}
+.ms-bdr-btm:before{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #A8A8A8;
+    border-radius: 50%;
+    top: -5px;
+    background-color: #fff; 
+    display: block;
+}
+.comment-section{
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.need-help-section-bg {
+  height: 600px;
+  width: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.need-help-section-bg-img {
+  /* The image used */
+  background-image: url("../img/support-bg.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  -moz-filter: blur(8px);
+  -o-filter: blur(8px);
+  -o-filter: blur(8px);
+  height: 600px; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+      box-sizing: border-box;
+}
+
+.need-help-section-inner {
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  height: 600px;;
+}
+
